@@ -139,13 +139,17 @@
         "method": "POST",
         "sortNum": 0,
         "created": "2023-07-19T14:35:04.482Z",
-        "modified": "2023-07-19T14:55:33.668Z",
+        "modified": "2023-07-21T14:31:18.169Z",
         "headers": [],
         "params": [],
         "body": {
             "type": "json",
             "raw": "{\n    \"name\": \"Jon\",\n    \"age\": 61,\n    \"address\": {\n      \"number\": \"56\",\n      \"street\": \"rue exemple\",\n      \"country\": \"France\",\n      \"city\": \"Grenoble\"\n    }\n  }",
             "form": []
+        },
+        "auth": {
+            "type": "bearer",
+            "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NGJhOGZjNTMzOWI1MjYxODEzNjA2ODEiLCJlbWFpbCI6InRlc3RAdGVzdC5jb20iLCJwYXNzd29yZCI6IiQyYiQxMCRqaGNPRVZpTTEvSGUxTTAwQ0RURWx1Uk5LbS50c1NFckRxLjRGbDlyL2RjTWdwdmtxelhtQyIsInJvbGUiOiJST0xFX1VTRVIiLCJpYXQiOjE2ODk5NDkwMjR9.HpdqXYDXC6eCNpakHJRMMTbd2D-W9JZipdRZ93BN_k4"
         },
         "tests": []
     },

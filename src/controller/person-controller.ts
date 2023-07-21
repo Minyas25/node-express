@@ -2,6 +2,7 @@ import { Router } from "express";
 import { personRepository } from "../repository/person-repository";
 import { checkId } from "../middleware";
 import Joi from "joi";
+import passport from "passport";
 
 
 export const personController = Router();
@@ -21,7 +22,7 @@ personController.get('/:id', checkId, async (req,res) => {
     res.json(person);
 });
 
-personController.post('/', async (req,res) => {
+personController.post('/', passport.authenticate('jwt',{session:false}), async (req,res) => {
     const validation = personValidation.validate(req.body, {abortEarly:false});
     if(validation.error) {
         res.status(400).json(validation.error);
