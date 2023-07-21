@@ -181,5 +181,43 @@
             "form": []
         },
         "tests": []
+    },
+    {
+        "_id": "74c08bb8-4418-41ce-b24b-0be67c9bd85f",
+        "colId": "history",
+        "containerId": "",
+        "name": "localhost:3000/api/user",
+        "url": "localhost:3000/api/user",
+        "method": "POST",
+        "sortNum": 0,
+        "created": "2023-07-21T14:01:02.232Z",
+        "modified": "2023-07-21T14:01:41.919Z",
+        "headers": [],
+        "params": [],
+        "body": {
+            "type": "json",
+            "raw": "{\n  \"email\":\"test@test.com\",\n  \"password\":\"1234\"\n}",
+            "form": []
+        },
+        "tests": []
+    },
+    {
+        "_id": "26200b20-fb93-441d-a729-0d8dbc2107ae",
+        "colId": "history",
+        "containerId": "",
+        "name": "localhost:3000/api/login",
+        "url": "localhost:3000/api/login",
+        "method": "POST",
+        "sortNum": 0,
+        "created": "2023-07-21T14:16:48.205Z",
+        "modified": "2023-07-21T14:17:04.776Z",
+        "headers": [],
+        "params": [],
+        "body": {
+            "type": "json",
+            "raw": "{\n  \"email\":\"test@test.com\",\n  \"password\":\"1234\"\n}",
+            "form": []
+        },
+        "tests": []
     }
 ]
